@@ -1,9 +1,9 @@
-import streamlit as st
-from PIL import Image, ImageEnhance
-import numpy as np
+import streamlit as st   #library of the python
+from PIL import Image, ImageEnhance  
+import numpy as np     #library of the python  dimension
 import cv2
 import os
-from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
+from tensorflow.keras.applications.mobilenet_v2 import preprocess_input   #powerful library of python is tensorflow
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model
 import detect_mask_image
